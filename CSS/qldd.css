@@ -1,0 +1,38 @@
+img.ft-proc {
+  width: 150px;
+  height: 150px;
+  /* opacity: 1; */
+  border-radius: 30px;
+}
+
+div.texto {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  border: solid 5px white;
+  border-radius: 10%;
+  box-shadow: 15px 15px grey;
+  padding: 20px;
+  background-color: rgb(99, 133, 99);
+  opacity: 0.7;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+span {
+  color: rgb(0, 0, 255);
+  font-style: italic;
+}
+
+div.titulo {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}

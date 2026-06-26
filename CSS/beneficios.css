@@ -1,0 +1,196 @@
+div.tit_cacau {
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(9, 66, 9);
+  opacity: 0.7;
+  border-radius: 35px;
+}
+
+div.ft_intro_cacau {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+img.ft_cacau {
+  width: 500px;
+  clip-path: polygon(
+    50% 0%,
+    70% 27%,
+    98% 35%,
+    76% 61%,
+    79% 91%,
+    49% 79%,
+    21% 91%,
+    21% 60%,
+    2% 35%,
+    30% 27%
+  );
+}
+
+div.intro_cacau {
+  background-color: rgb(99, 133, 99);
+  border: solid 8px white;
+  border-radius: 120px;
+  padding: 40px;
+  width: 600px;
+  height: 100px;
+  margin-top: 120px;
+  box-shadow: 15px 15px rgb(172, 170, 170);
+  opacity: 0.7;
+}
+
+div.benef_cacau {
+  background-color: rgb(99, 133, 99);
+  border: solid 8px white;
+  border-radius: 120px;
+  width: 800px;
+  padding: 40px;
+  margin-left: 300px;
+  box-shadow: 15px 15px rgb(172, 170, 170);
+  opacity: 0.7;
+}
+
+p {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+div.tit_choco {
+  width: 100%;
+  margin-top: 220px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(9, 66, 9);
+  opacity: 0.7;
+  border-radius: 35px;
+}
+
+div.ft_intro_choco {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+img.ft_choco {
+  width: 400px;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+  margin-left: 80px;
+  rotate: 15deg;
+}
+
+div.intro_choco {
+  background-color: rgb(99, 133, 99);
+  border: solid 8px white;
+  border-radius: 120px;
+  padding: 40px;
+  width: 600px;
+  height: 200px;
+  margin-top: 50px;
+  box-shadow: 15px 15px rgb(172, 170, 170);
+  opacity: 0.7;
+}
+
+div.benef_choco {
+  background-color: rgb(99, 133, 99);
+  border: solid 8px white;
+  border-radius: 120px;
+  width: 700px;
+  padding: 40px;
+  margin-top: 80px;
+  margin-left: 100px;
+  box-shadow: 15px 15px rgb(172, 170, 170);
+  opacity: 0.7;
+}
+
+span {
+  color: yellow;
+  font-size: 40px;
+}
+
+img.fundo-arrow1 {
+  width: 150px;
+  position: absolute;
+  z-index: 2;
+  top: 720px;
+  left: 430px;
+  clip-path: polygon(
+    0 30%,
+    60% 30%,
+    60% 10%,
+    100% 50%,
+    60% 90%,
+    60% 70%,
+    0 70%
+  );
+  rotate: -20deg;
+}
+
+img.fundo-arrow2 {
+  width: 150px;
+  position: absolute;
+  z-index: 2;
+  top: 860px;
+  left: 390px;
+  clip-path: polygon(
+    0 30%,
+    60% 30%,
+    60% 10%,
+    100% 50%,
+    60% 90%,
+    60% 70%,
+    0 70%
+  );
+  rotate: 50deg;
+}
+
+img.fundo-arrow3 {
+  width: 150px;
+  position: absolute;
+  z-index: 2;
+  top: 2700px;
+  left: 720px;
+  clip-path: polygon(
+    40% 10%,
+    40% 30%,
+    100% 30%,
+    100% 70%,
+    40% 70%,
+    40% 90%,
+    0% 50%
+  );
+  rotate: 11deg;
+}
+
+img.fundo-arrow4 {
+  width: 150px;
+  position: absolute;
+  z-index: 2;
+  top: 2820px;
+  left: 775px;
+  clip-path: polygon(
+    40% 10%,
+    40% 30%,
+    100% 30%,
+    100% 70%,
+    40% 70%,
+    40% 90%,
+    0% 50%
+  );
+  rotate: -60deg;
+}

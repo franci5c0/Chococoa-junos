@@ -1,0 +1,93 @@
+div.menu_lateral {
+    width: 20%;
+    height: auto;
+    overflow-y: scroll;
+    background-color: rgb(99, 133, 99);
+    /* position: absolute; */
+    /* z-index: 2; */
+    border: solid 8px white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+div.itens_lat {
+    display: block;
+    padding: 15px;
+}
+
+div.lista_lat {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+li a:hover {
+color: rgb(46, 23, 16);
+font-weight: bolder;
+}
+
+div.botoes_lat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.lista_menu {
+    list-style-type: none;
+}
+
+div.corpo {
+    width: 79%;
+    margin-left: 20%;
+}
+
+div.quadro_rec {
+    border: solid 8px white;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: rgb(99, 133, 99);
+    padding: 30px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+p {
+    text-align: justify;
+}
+
+span {
+    color: rgb(14, 14, 104);
+    font-weight: bold;
+}
+
+div.ingred {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div.local_ft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.ft_rec {
+    width: 300px;
+    height: 280px;
+}
